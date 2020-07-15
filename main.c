@@ -5,10 +5,9 @@
 //Imprime cadena de bytes en formato hexadecimal
 static void print_hex(const char* data, size_t size)
 {
-    int i;
-    printf("0x");
-    for(i = 0; i < size; ++i)
-        printf("%02x",(unsigned char) data[i]);
+	int i;
+	for(i = 0; i < size; ++i)
+		printf("%02x",(unsigned char) data[i]);
 }
 
 int main()
@@ -32,9 +31,9 @@ int main()
 	//Calcula el hash SHA-1 de texto usando funciones en libsha1
 	//TODO: Revisar libsha1.h y test.c en libsha1
 
-    printf("El texto: \'%s\' en SHA1 es: \n",texto);
-    print_hex(dgst, SHA1_DIGEST_SIZE);
-    printf("\n");
+	printf("El texto: \'%s\' en SHA1 es: \n",texto);
+	print_hex(dgst, SHA1_DIGEST_SIZE);
+	printf("\n");
 
-    free(texto); //liberar espacio reservado para texto
+	free(texto); //liberar espacio reservado para texto
 }

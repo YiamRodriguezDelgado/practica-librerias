@@ -3,3 +3,7 @@ hash: main.c
 
 hash_dyn: main.c
 	#TODO: Compilación con linking dinámico
+	
+.PHONY: clean
+clean:
+	rm -rf hash hash_dyn
