@@ -15,7 +15,7 @@ $./hash
 Ingrese texto: hola
 El texto ingresado tiene 5 caracteres (incluido el salto de línea).
 El texto: 'hola' en SHA1 es: 
-0x9980b85d3383e3a2fb45eb7d066a4879a9dad0
+9980b85d3383e3a2fb45eb7d066a4879a9dad0
 ```
 Para comprobar el funcionamiento correcto del programa usar: http://www.sha1-online.com/
 
